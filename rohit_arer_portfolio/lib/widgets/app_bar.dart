@@ -1,7 +1,7 @@
 import 'dart:math';
+
 import 'package:flutter/foundation.dart'; // To use kIsWeb
 import 'package:flutter/material.dart';
-import 'package:rohit_arer_portfolio/constants/app_colors.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
@@ -22,7 +22,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
 
     return AppBar(
       backgroundColor: Colors.white,
-      elevation: 4.0,
+      elevation: 0.0,
       title: Row(
         mainAxisAlignment: kIsWeb
             ? MainAxisAlignment.spaceBetween // For web: space out items
@@ -101,7 +101,7 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
           style: const TextStyle(
             fontSize: 18,
             fontWeight: FontWeight.bold, // Bold font
-            color: Color.fromARGB(255, 0, 0, 0), // Blue accent color
+            color: Color.fromARGB(255, 0, 0, 0), // Black color
           ),
         ),
       ),
