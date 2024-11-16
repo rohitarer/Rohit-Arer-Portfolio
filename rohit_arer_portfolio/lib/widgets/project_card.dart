@@ -18,10 +18,14 @@ class ProjectCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isMobileView = MediaQuery.of(context).size.width <= 600;
+
     return Center(
       child: Container(
-        width: kIsWeb ? 1000 : MediaQuery.of(context).size.width * 0.9,
-        // Fixed width for web, responsive for mobile
+        width: kIsWeb
+            ? (isMobileView ? MediaQuery.of(context).size.width * 0.95 : 1000)
+            : MediaQuery.of(context).size.width * 0.9,
+        // Adjust width based on view
         child: Card(
           elevation: 4.0,
           color: AppColors.lightBackground, // Consistent background color
@@ -29,9 +33,66 @@ class ProjectCard extends StatelessWidget {
           shape:
               RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
           child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: kIsWeb
-                ? Row(
+            padding: const EdgeInsets.all(6.0),
+            child: isMobileView
+                ? Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      // Title
+                      Text(
+                        title,
+                        style: const TextStyle(
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+
+                      // Image Section
+                      ClipRRect(
+                        borderRadius: BorderRadius.circular(12),
+                        child: Image.asset(
+                          imageUrl,
+                          height: 180,
+                          width: double.infinity,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+
+                      // Description
+                      Text(
+                        description,
+                        style: TextStyle(fontSize: 14, color: Colors.grey[800]),
+                        textAlign: TextAlign.left,
+                      ),
+                      const SizedBox(height: 12),
+
+                      // Domain Tokens
+                      Wrap(
+                        spacing: 8.0,
+                        children: domains.map((domain) {
+                          return Container(
+                            padding: const EdgeInsets.symmetric(
+                                vertical: 4.0, horizontal: 8.0),
+                            decoration: BoxDecoration(
+                              color: Colors.grey[600],
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Text(
+                              domain,
+                              style: const TextStyle(
+                                color: Colors.white,
+                                fontSize: 12,
+                              ),
+                            ),
+                          );
+                        }).toList(),
+                      ),
+                    ],
+                  )
+                : Row(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       // Image Section
@@ -101,63 +162,6 @@ class ProjectCard extends StatelessWidget {
                             ),
                           ],
                         ),
-                      ),
-                    ],
-                  )
-                : Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      // Title
-                      Text(
-                        title,
-                        style: const TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
-                          color: Colors.black,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-
-                      // Image Section
-                      ClipRRect(
-                        borderRadius: BorderRadius.circular(12),
-                        child: Image.asset(
-                          imageUrl,
-                          height: 180,
-                          width: double.infinity,
-                          fit: BoxFit.cover,
-                        ),
-                      ),
-                      const SizedBox(height: 12),
-
-                      // Description
-                      Text(
-                        description,
-                        style: TextStyle(fontSize: 14, color: Colors.grey[800]),
-                        textAlign: TextAlign.left,
-                      ),
-                      const SizedBox(height: 12),
-
-                      // Domain Tokens
-                      Wrap(
-                        spacing: 8.0,
-                        children: domains.map((domain) {
-                          return Container(
-                            padding: const EdgeInsets.symmetric(
-                                vertical: 4.0, horizontal: 8.0),
-                            decoration: BoxDecoration(
-                              color: Colors.grey[600],
-                              borderRadius: BorderRadius.circular(8),
-                            ),
-                            child: Text(
-                              domain,
-                              style: const TextStyle(
-                                color: Colors.white,
-                                fontSize: 12,
-                              ),
-                            ),
-                          );
-                        }).toList(),
                       ),
                     ],
                   ),

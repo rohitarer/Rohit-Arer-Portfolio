@@ -26,6 +26,8 @@ class _ExperienceCardState extends State<ExperienceCard> {
 
   @override
   Widget build(BuildContext context) {
+    final isMobileView = MediaQuery.of(context).size.width <= 600;
+
     return Card(
       color: AppColors.lightBackground,
       elevation: 4.0,
@@ -69,12 +71,10 @@ class _ExperienceCardState extends State<ExperienceCard> {
                     _isExpanded ? TextOverflow.visible : TextOverflow.ellipsis,
               ),
             ),
-            // const SizedBox(height: 15),
 
             // Tokens at Bottom Left
-            // Tokens at Bottom Left
             SizedBox(
-              height: kIsWeb ? 60 : 100, // Adjust height based on platform
+              height: isMobileView ? 100 : 60, // Adjust height based on view
               child: Stack(
                 children: [
                   // Positioned Tokens
@@ -82,8 +82,10 @@ class _ExperienceCardState extends State<ExperienceCard> {
                     left: 6, // Align to the bottom-left corner
                     bottom: 6,
                     child: SizedBox(
-                      width: MediaQuery.of(context).size.width *
-                          0.5, // Half the card width
+                      width: isMobileView
+                          ? MediaQuery.of(context).size.width * 0.8
+                          : MediaQuery.of(context).size.width *
+                              0.5, // Adjust width based on view
                       child: Wrap(
                         spacing: 8.0,
                         runSpacing: 8.0,

@@ -6,14 +6,16 @@ import 'package:rohit_arer_portfolio/widgets/expirence_card.dart';
 class ExperiencePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final isMobileView = MediaQuery.of(context).size.width <= 600;
+
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 0.0),
       child: Column(
         crossAxisAlignment:
-            kIsWeb ? CrossAxisAlignment.center : CrossAxisAlignment.start,
+            isMobileView ? CrossAxisAlignment.start : CrossAxisAlignment.center,
         children: [
-          if (!kIsWeb)
-            // App Side Heading
+          // Heading
+          if (isMobileView || !kIsWeb)
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
               child: Text(
@@ -27,7 +29,7 @@ class ExperiencePage extends StatelessWidget {
                 textAlign: TextAlign.left,
               ),
             ),
-          if (kIsWeb)
+          if (!isMobileView && kIsWeb)
             // Web Side Heading (overlaid at the top-left of the card)
             Stack(
               children: [
@@ -86,11 +88,11 @@ class ExperiencePage extends StatelessWidget {
                 ),
               ],
             ),
-          if (!kIsWeb)
-            // Experience Card for App
+          // Experience Card
+          if (isMobileView || !kIsWeb)
             Center(
               child: Container(
-                width: MediaQuery.of(context).size.width * 0.9,
+                width: MediaQuery.of(context).size.width * 0.97,
                 child: ExperienceCard(
                   title: 'Software Engineer',
                   monthYear: 'Jan 2021 - Present',

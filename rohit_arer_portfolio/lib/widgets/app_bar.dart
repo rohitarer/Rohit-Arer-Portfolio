@@ -20,73 +20,76 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     final bool isWideScreen = MediaQuery.of(context).size.width > 600;
 
-    return AppBar(
-      backgroundColor: Colors.white,
-      elevation: 0.0,
-      title: Row(
-        mainAxisAlignment: kIsWeb
-            ? MainAxisAlignment.spaceBetween // For web: space out items
-            : MainAxisAlignment.start, // For mobile: align left
-        children: [
-          // Left-side Logo or Name
-          Text(
-            'Rohit Arer',
-            style: TextStyle(
-              fontWeight: FontWeight.bold,
-              fontSize: kIsWeb ? 24 : 20, // Larger font size for web
-              color: Colors.black,
-            ),
-          ),
-          if (isWideScreen && kIsWeb) const Spacer(),
-          if (isWideScreen && kIsWeb)
-            // Centered navigation for web only when screen is wide enough
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                _NavLink('About Me', onAboutTap),
-                const SizedBox(width: 20),
-                _NavLink(' Experience', onExperienceTap),
-                const SizedBox(width: 20),
-                _NavLink(' Projects', onProjectsTap),
-              ],
-            ),
-          if (isWideScreen && kIsWeb) const Spacer(),
-          // Right-side Buttons
-          Row(
-            mainAxisAlignment: MainAxisAlignment.end,
+    return Container(
+      color: Colors.white, // Ensures a consistent white background
+      child: SafeArea(
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+          child: Row(
+            mainAxisAlignment: kIsWeb
+                ? MainAxisAlignment.spaceBetween // For web: space out items
+                : MainAxisAlignment.start, // For mobile: align left
             children: [
-              ElevatedButton(
-                onPressed: _launchResume,
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.black,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 16, vertical: 10),
-                ),
-                child: Row(
-                  children: const [
-                    Text('Resume', style: TextStyle(color: Colors.white)),
-                    SizedBox(width: 8),
-                    Icon(Icons.open_in_new, color: Colors.white, size: 18),
-                  ],
+              // Left-side Logo or Name
+              Text(
+                'Rohit Arer',
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: kIsWeb ? 24 : 20, // Larger font size for web
+                  color: Colors.black,
                 ),
               ),
-              const SizedBox(width: 0), // Space between buttons
-              IconButton(
-                icon: Image.asset(
-                  'assets/icons/linkedin.png',
-                  width: 36,
-                  height: 36,
+              if (isWideScreen && kIsWeb) const Spacer(),
+              if (isWideScreen && kIsWeb)
+                // Centered navigation for web only when screen is wide enough
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    _NavLink('About Me', onAboutTap),
+                    const SizedBox(width: 20),
+                    _NavLink('Experience', onExperienceTap),
+                    const SizedBox(width: 20),
+                    _NavLink('Projects', onProjectsTap),
+                  ],
                 ),
-                onPressed: _launchLinkedIn,
+              if (isWideScreen && kIsWeb) const Spacer(),
+              // Right-side Buttons
+              Row(
+                mainAxisAlignment: MainAxisAlignment.end,
+                children: [
+                  ElevatedButton(
+                    onPressed: _launchResume,
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.black,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      padding: const EdgeInsets.symmetric(
+                          horizontal: 16, vertical: 10),
+                    ),
+                    child: Row(
+                      children: const [
+                        Text('Resume', style: TextStyle(color: Colors.white)),
+                        SizedBox(width: 8),
+                        Icon(Icons.open_in_new, color: Colors.white, size: 18),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(width: 0), // Space between buttons
+                  IconButton(
+                    icon: Image.asset(
+                      'assets/icons/linkedin.png',
+                      width: 36,
+                      height: 36,
+                    ),
+                    onPressed: _launchLinkedIn,
+                  ),
+                ],
               ),
             ],
           ),
-        ],
+        ),
       ),
-      toolbarHeight: kIsWeb ? 80 : kToolbarHeight, // Increase height for web
     );
   }
 

@@ -6,26 +6,33 @@ import 'package:rohit_arer_portfolio/widgets/project_card.dart';
 class ProjectsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
+    final isMobileView = MediaQuery.of(context).size.width <= 600;
+
     return Padding(
-      padding: const EdgeInsets.symmetric(vertical: 0.0, horizontal: 0.0),
+      padding: const EdgeInsets.symmetric(vertical: 6.0, horizontal: 0.0),
       child: Column(
         crossAxisAlignment:
-            kIsWeb ? CrossAxisAlignment.center : CrossAxisAlignment.start,
+            isMobileView ? CrossAxisAlignment.start : CrossAxisAlignment.center,
         children: [
-          if (!kIsWeb)
-            // App Side Heading
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+          // Heading
+          if (isMobileView || !kIsWeb)
+            Padding(
+              padding: const EdgeInsets.only(
+                left: 16.0,
+                right: 16.0,
+                top: 0.0, // Add extra top padding for smaller screens
+                bottom: 0.0, // Adjust as necessary
+              ),
               child: Text(
                 'PROJECTS',
-                style: TextStyle(
+                style: const TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,
                   color: Colors.black,
                 ),
               ),
             ),
-          if (kIsWeb)
+          if (!isMobileView && kIsWeb)
             // Web Side Heading (overlaid at the top-left of the card)
             Stack(
               children: [
@@ -64,15 +71,18 @@ class ProjectsPage extends StatelessWidget {
                 ),
               ],
             ),
-          if (!kIsWeb)
-            // Project Card for App
-            ProjectCard(
-              title: 'AI Image Recognition App',
-              imageUrl:
-                  'assets/images/project.jpg', // Replace with actual image
-              description:
-                  'A mobile application that uses machine learning to recognize and classify images in real-time.',
-              domains: ['Machine Learning', 'Flutter', 'Computer Vision'],
+          // Project Card
+          if (isMobileView || !kIsWeb)
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 16.0),
+              child: ProjectCard(
+                title: 'AI Image Recognition App',
+                imageUrl:
+                    'assets/images/project.jpg', // Replace with actual image
+                description:
+                    'A mobile application that uses machine learning to recognize and classify images in real-time.',
+                domains: ['Machine Learning', 'Flutter', 'Computer Vision'],
+              ),
             ),
         ],
       ),
