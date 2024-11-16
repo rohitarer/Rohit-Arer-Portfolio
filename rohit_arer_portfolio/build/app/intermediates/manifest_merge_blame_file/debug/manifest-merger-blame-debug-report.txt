@@ -1,0 +1,423 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.rohit_arer_portfolio"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:45:5-66
+15-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:45:22-64
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:39:5-44:15
+24        <intent>
+24-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:40:9-43:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:41:13-72
+25-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:41:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:42:13-50
+27-->/Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:42:19-48
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+31-->[:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+31-->[:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-68
+32-->[:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-65
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+34-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+34-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
+35    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+35-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+35-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+36-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+36-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
+37
+38    <permission
+38-->[androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+39        android:name="com.example.rohit_arer_portfolio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.example.rohit_arer_portfolio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+43
+44    <application
+45        android:name="android.app.Application"
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+49        android:label="rohit_arer_portfolio" >
+50        <activity
+51            android:name="com.example.rohit_arer_portfolio.MainActivity"
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+53            android:exported="true"
+54            android:hardwareAccelerated="true"
+55            android:launchMode="singleTop"
+56            android:taskAffinity=""
+57            android:theme="@style/LaunchTheme"
+58            android:windowSoftInputMode="adjustResize" >
+59
+60            <!--
+61                 Specifies an Android theme to apply to this Activity as soon as
+62                 the Android process has started. This theme is visible to the user
+63                 while the Flutter UI initializes. After that, this theme continues
+64                 to determine the Window background behind the Flutter UI.
+65            -->
+66            <meta-data
+67                android:name="io.flutter.embedding.android.NormalTheme"
+68                android:resource="@style/NormalTheme" />
+69
+70            <intent-filter>
+71                <action android:name="android.intent.action.MAIN" />
+72
+73                <category android:name="android.intent.category.LAUNCHER" />
+74            </intent-filter>
+75        </activity>
+76        <!--
+77             Don't delete the meta-data below.
+78             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+79        -->
+80        <meta-data
+81            android:name="flutterEmbedding"
+82            android:value="2" />
+83
+84        <service
+84-->[:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+85            android:name="com.google.firebase.components.ComponentDiscoveryService"
+85-->[:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+86            android:directBootAware="true"
+86-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+87            android:exported="false" >
+87-->[com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:11:13-37
+88            <meta-data
+88-->[:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+89                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+89-->[:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+90                android:value="com.google.firebase.components.ComponentRegistrar" />
+90-->[:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+91            <meta-data
+91-->[:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+92                android:name="com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar"
+92-->[:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-128
+93                android:value="com.google.firebase.components.ComponentRegistrar" />
+93-->[:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+94            <meta-data
+94-->[:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+95                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+95-->[:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+96                android:value="com.google.firebase.components.ComponentRegistrar" />
+96-->[:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+97            <meta-data
+97-->[:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+98                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+98-->[:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+99                android:value="com.google.firebase.components.ComponentRegistrar" />
+99-->[:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+100            <meta-data
+100-->[com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:12:13-14:85
+101                android:name="com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar"
+101-->[com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:13:17-125
+102                android:value="com.google.firebase.components.ComponentRegistrar" />
+102-->[com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:14:17-82
+103            <meta-data
+103-->[com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:12:13-14:85
+104                android:name="com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar"
+104-->[com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:13:17-129
+105                android:value="com.google.firebase.components.ComponentRegistrar" />
+105-->[com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:14:17-82
+106            <meta-data
+106-->[com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:11:13-13:85
+107                android:name="com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar"
+107-->[com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:12:17-129
+108                android:value="com.google.firebase.components.ComponentRegistrar" />
+108-->[com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:13:17-82
+109            <meta-data
+109-->[com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+110                android:name="com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar"
+110-->[com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
+111                android:value="com.google.firebase.components.ComponentRegistrar" />
+111-->[com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
+112            <meta-data
+112-->[com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+113                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+113-->[com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
+115            <meta-data
+115-->[com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+116                android:name="com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar"
+116-->[com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+117                android:value="com.google.firebase.components.ComponentRegistrar" />
+117-->[com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+118            <meta-data
+118-->[com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+119                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+119-->[com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+121            <meta-data
+121-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+122                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+122-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
+124            <meta-data
+124-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+125                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar"
+125-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+127            <meta-data
+127-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+128                android:name="com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar"
+128-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+130            <meta-data
+130-->[com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+131                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+131-->[com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+132                android:value="com.google.firebase.components.ComponentRegistrar" />
+132-->[com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+133            <meta-data
+133-->[com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+134                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+134-->[com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+135                android:value="com.google.firebase.components.ComponentRegistrar" />
+135-->[com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+136            <meta-data
+136-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+137                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+137-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+138                android:value="com.google.firebase.components.ComponentRegistrar" />
+138-->[com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+139            <meta-data
+139-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+140                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+140-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+141                android:value="com.google.firebase.components.ComponentRegistrar" />
+141-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+142        </service>
+143
+144        <provider
+144-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+145            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+145-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+146            android:authorities="com.example.rohit_arer_portfolio.flutter.image_provider"
+146-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+147            android:exported="false"
+147-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+148            android:grantUriPermissions="true" >
+148-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+149            <meta-data
+149-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+150                android:name="android.support.FILE_PROVIDER_PATHS"
+150-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+151                android:resource="@xml/flutter_image_picker_file_paths" />
+151-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+152        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+153        <service
+153-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+154            android:name="com.google.android.gms.metadata.ModuleDependencies"
+154-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+155            android:enabled="false"
+155-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+156            android:exported="false" >
+156-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+157            <intent-filter>
+157-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+158                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+158-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+158-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+159            </intent-filter>
+160
+161            <meta-data
+161-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+162                android:name="photopicker_activity:0:required"
+162-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+163                android:value="" />
+163-->[:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+164        </service>
+165
+166        <activity
+166-->[:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+167            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+167-->[:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+168            android:exported="false"
+168-->[:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+169            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+169-->[:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+170
+171        <property
+171-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+172            android:name="android.adservices.AD_SERVICES_CONFIG"
+172-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+173            android:resource="@xml/ga_ad_services_config" />
+173-->[com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+174
+175        <provider
+175-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+176            android:name="com.google.firebase.provider.FirebaseInitProvider"
+176-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+177            android:authorities="com.example.rohit_arer_portfolio.firebaseinitprovider"
+177-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+179            android:exported="false"
+179-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+180            android:initOrder="100" />
+180-->[com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+181
+182        <receiver
+182-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+183            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+183-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+184            android:enabled="true"
+184-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+185            android:exported="false" >
+185-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+186        </receiver>
+187
+188        <service
+188-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+189            android:name="com.google.android.gms.measurement.AppMeasurementService"
+189-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+190            android:enabled="true"
+190-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+191            android:exported="false" />
+191-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+192        <service
+192-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+193            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+193-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+194            android:enabled="true"
+194-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+196            android:permission="android.permission.BIND_JOB_SERVICE" />
+196-->[com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+197
+198        <activity
+198-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+199            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+199-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+200            android:exported="false"
+200-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+201            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+201-->[com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+202
+203        <uses-library
+203-->[androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+204            android:name="androidx.window.extensions"
+204-->[androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+205            android:required="false" />
+205-->[androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+206        <uses-library
+206-->[androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+207            android:name="androidx.window.sidecar"
+207-->[androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+208            android:required="false" />
+208-->[androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+209
+210        <meta-data
+210-->[com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+211            android:name="com.google.android.gms.version"
+211-->[com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+212            android:value="@integer/google_play_services_version" />
+212-->[com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+213
+214        <uses-library
+214-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+215            android:name="android.ext.adservices"
+215-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+216            android:required="false" />
+216-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+217
+218        <provider
+218-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+219            android:name="androidx.startup.InitializationProvider"
+219-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+220            android:authorities="com.example.rohit_arer_portfolio.androidx-startup"
+220-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+221            android:exported="false" >
+221-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+222            <meta-data
+222-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+223                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+223-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+224                android:value="androidx.startup" />
+224-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+225            <meta-data
+225-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+226                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+226-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+227                android:value="androidx.startup" />
+227-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+228        </provider>
+229
+230        <receiver
+230-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+231            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+231-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+232            android:directBootAware="false"
+232-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+233            android:enabled="true"
+233-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+234            android:exported="true"
+234-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+235            android:permission="android.permission.DUMP" >
+235-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+236            <intent-filter>
+236-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+237                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+237-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+238            </intent-filter>
+239            <intent-filter>
+239-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+240                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+240-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+241            </intent-filter>
+242            <intent-filter>
+242-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+243                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+243-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+244            </intent-filter>
+245            <intent-filter>
+245-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+246                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+246-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+247            </intent-filter>
+248        </receiver>
+249    </application>
+250
+251</manifest>

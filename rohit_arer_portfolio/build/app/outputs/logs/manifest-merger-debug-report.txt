@@ -1,0 +1,769 @@
+-- Merging decision tree log ---
+application
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:2:5-33:19
+MERGED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-17:19
+MERGED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-13:19
+MERGED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
+MERGED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-32:19
+MERGED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-12:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:13:5-24:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:26:5-37:19
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/e2e708df133ee0b3401ed74d367df13f/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/e2e708df133ee0b3401ed74d367df13f/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:29:5-41:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:21:5-32:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:11:5-22:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/rohitarer/.gradle/caches/transforms-3/0d4e650e6ae372b390f918c571357157/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/rohitarer/.gradle/caches/transforms-3/0d4e650e6ae372b390f918c571357157/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/308e30ea1b7e1f42bfc9d69aa2de3934/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/308e30ea1b7e1f42bfc9d69aa2de3934/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/da84f25976a8fc85113802962c776ad2/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/da84f25976a8fc85113802962c776ad2/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/14e00c7a957a657340cf5708115a03e6/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/14e00c7a957a657340cf5708115a03e6/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rohitarer/.gradle/caches/transforms-3/b8943beb086143f4f73f28b1877606e6/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rohitarer/.gradle/caches/transforms-3/b8943beb086143f4f73f28b1877606e6/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/rohitarer/.gradle/caches/transforms-3/a4f07ce85ffdf7070fc4ca2bb55928ba/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/rohitarer/.gradle/caches/transforms-3/a4f07ce85ffdf7070fc4ca2bb55928ba/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:4:5-6:19
+MERGED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:22:5-29:19
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/rohitarer/.gradle/caches/transforms-3/f75d11b0a2c94f2fa9434666c0b97e67/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/rohitarer/.gradle/caches/transforms-3/f75d11b0a2c94f2fa9434666c0b97e67/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:4:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rohitarer/.gradle/caches/transforms-3/8ab33ee6d52656877ae41d88f19298c5/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rohitarer/.gradle/caches/transforms-3/8ab33ee6d52656877ae41d88f19298c5/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:5:5-7:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/a510fc0340ac0f4c58704b7583949ac1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/a510fc0340ac0f4c58704b7583949ac1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/e540b547d0172eb86b2282fa2b13b6b8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/e540b547d0172eb86b2282fa2b13b6b8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:name
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+manifest
+ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+MERGED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-19:12
+MERGED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-15:12
+MERGED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-34:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-14:12
+MERGED from [:webview_flutter_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/e2e708df133ee0b3401ed74d367df13f/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:17:1-43:12
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:15:1-34:12
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:15:1-41:12
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/rohitarer/.gradle/caches/transforms-3/0d4e650e6ae372b390f918c571357157/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/308e30ea1b7e1f42bfc9d69aa2de3934/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/da84f25976a8fc85113802962c776ad2/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/14e00c7a957a657340cf5708115a03e6/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rohitarer/.gradle/caches/transforms-3/b8943beb086143f4f73f28b1877606e6/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/rohitarer/.gradle/caches/transforms-3/a4f07ce85ffdf7070fc4ca2bb55928ba/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rohitarer/.gradle/caches/transforms-3/d6ec6fed677ed7483fa84d4f114f8a4a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/rohitarer/.gradle/caches/transforms-3/010b1a521fa22aab998e488b30ccefdc/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:15:1-19:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/84c39ddc7d3d22bb3e319655fe998cb0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/5227781b1baa39901d637671f98cc1c7/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/5a2b79defaef2b7b1e097c5d3c58c9c5/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/af2e92ffa8cd66451aae366e84920fd2/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/d09b9b429d58d305ef17f1457eb71b9e/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/41077117b574c83a91f975585118e3ec/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/ba9bc2ff6d1b03d25b243b1c1008c63d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window:window-java:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/1d2f47be922f8aca71aeb5eed0908bc7/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:17:1-21:12
+MERGED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/rohitarer/.gradle/caches/transforms-3/f75d11b0a2c94f2fa9434666c0b97e67/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rohitarer/.gradle/caches/transforms-3/8ab33ee6d52656877ae41d88f19298c5/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/rohitarer/.gradle/caches/transforms-3/7d7f99a070342ccb625797cbc46f7c16/transformed/fragment-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.2] /Users/rohitarer/.gradle/caches/transforms-3/2a22077c354442fdd6586b9947c9b1ab/transformed/jetified-activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.8.0] /Users/rohitarer/.gradle/caches/transforms-3/15084a67e3fd21998842091874c0a11f/transformed/browser-1.8.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/rohitarer/.gradle/caches/transforms-3/d7ddd9a4e8e066daed8edaabbb3578e0/transformed/webkit-1.12.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/01009582dad0d2959d22372c256aaa33/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/4d3be47bb6a146040f3bdd20faa8996c/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/2d12942a75f8f0c8fe25540e8e433b70/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/80924c40c77c0b01ca84141b71df42d4/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/206511dd8489fbbfa4e567a22746443d/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/rohitarer/.gradle/caches/transforms-3/7fea50d89a63dd37e2b0ef1332dc914f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/rohitarer/.gradle/caches/transforms-3/4f0639afce9e3277382e8c8de7c2c84e/transformed/exifinterface-1.3.7/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/7df4e546d12fd08e760cc70f2a27a525/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/a510fc0340ac0f4c58704b7583949ac1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/125878fe3af31fdd637cfd03f880c701/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/f3067ec06d1de225d18ae2765132eb5d/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/e540b547d0172eb86b2282fa2b13b6b8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/rohitarer/.gradle/caches/transforms-3/cddce6ebbd0f934de3a81443c431538b/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/300a6cfb818b97bff569a626daa7f0ba/transformed/jetified-core-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/ef19845569a1728b5629a7ac9985bfc8/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/6d7f5c018c62839ee6b7620d0e9f01cb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/48cb06e2505eb39517a8fa0e7d505431/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/rohitarer/.gradle/caches/transforms-3/23b5155a5b76b59890bbec18ff98444d/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/fb5092e8a04c6753828f91110bf4f513/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/rohitarer/.gradle/caches/transforms-3/ca97e432e81e539e048cd0320626f51b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:2:1-9:12
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml:1:1-7:12
+	package
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:1-46:12
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:1:11-69
+queries
+ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:39:5-44:15
+intent#action:name:android.intent.action.PROCESS_TEXT+data:mimeType:text/plain
+ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:40:9-43:18
+action#android.intent.action.PROCESS_TEXT
+ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:41:13-72
+	android:name
+		ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:41:21-70
+data
+ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:42:13-50
+	android:mimeType
+		ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:42:19-48
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:45:5-66
+MERGED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:45:5-66
+MERGED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:45:5-66
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:8:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml:45:22-64
+uses-sdk
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+MERGED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:6:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:webview_flutter_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/webview_flutter_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/e2e708df133ee0b3401ed74d367df13f/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/e2e708df133ee0b3401ed74d367df13f/transformed/jetified-firebase-analytics-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/rohitarer/.gradle/caches/transforms-3/0d4e650e6ae372b390f918c571357157/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:19.0.2] /Users/rohitarer/.gradle/caches/transforms-3/0d4e650e6ae372b390f918c571357157/transformed/jetified-firebase-auth-interop-19.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/308e30ea1b7e1f42bfc9d69aa2de3934/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/308e30ea1b7e1f42bfc9d69aa2de3934/transformed/jetified-play-services-measurement-sdk-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/da84f25976a8fc85113802962c776ad2/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/da84f25976a8fc85113802962c776ad2/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/14e00c7a957a657340cf5708115a03e6/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/14e00c7a957a657340cf5708115a03e6/transformed/jetified-play-services-measurement-base-22.1.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rohitarer/.gradle/caches/transforms-3/b8943beb086143f4f73f28b1877606e6/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] /Users/rohitarer/.gradle/caches/transforms-3/b8943beb086143f4f73f28b1877606e6/transformed/jetified-play-services-stats-17.0.2/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/rohitarer/.gradle/caches/transforms-3/a4f07ce85ffdf7070fc4ca2bb55928ba/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] /Users/rohitarer/.gradle/caches/transforms-3/a4f07ce85ffdf7070fc4ca2bb55928ba/transformed/jetified-firebase-appcheck-interop-17.1.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rohitarer/.gradle/caches/transforms-3/d6ec6fed677ed7483fa84d4f114f8a4a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] /Users/rohitarer/.gradle/caches/transforms-3/d6ec6fed677ed7483fa84d4f114f8a4a/transformed/jetified-firebase-database-collection-18.0.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/rohitarer/.gradle/caches/transforms-3/010b1a521fa22aab998e488b30ccefdc/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [com.google.firebase:firebase-installations-interop:17.1.1] /Users/rohitarer/.gradle/caches/transforms-3/010b1a521fa22aab998e488b30ccefdc/transformed/jetified-firebase-installations-interop-17.1.1/AndroidManifest.xml:17:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/84c39ddc7d3d22bb3e319655fe998cb0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/84c39ddc7d3d22bb3e319655fe998cb0/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/5227781b1baa39901d637671f98cc1c7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/5227781b1baa39901d637671f98cc1c7/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/5a2b79defaef2b7b1e097c5d3c58c9c5/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/5a2b79defaef2b7b1e097c5d3c58c9c5/transformed/jetified-lifecycle-livedata-core-ktx-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/af2e92ffa8cd66451aae366e84920fd2/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/af2e92ffa8cd66451aae366e84920fd2/transformed/lifecycle-livedata-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/d09b9b429d58d305ef17f1457eb71b9e/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/d09b9b429d58d305ef17f1457eb71b9e/transformed/lifecycle-livedata-core-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/41077117b574c83a91f975585118e3ec/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/41077117b574c83a91f975585118e3ec/transformed/lifecycle-viewmodel-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/ba9bc2ff6d1b03d25b243b1c1008c63d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/ba9bc2ff6d1b03d25b243b1c1008c63d/transformed/jetified-lifecycle-viewmodel-savedstate-2.7.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/1d2f47be922f8aca71aeb5eed0908bc7/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window-java:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/1d2f47be922f8aca71aeb5eed0908bc7/transformed/jetified-window-java-1.2.0/AndroidManifest.xml:19:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/rohitarer/.gradle/caches/transforms-3/f75d11b0a2c94f2fa9434666c0b97e67/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.2.0] /Users/rohitarer/.gradle/caches/transforms-3/f75d11b0a2c94f2fa9434666c0b97e67/transformed/jetified-play-services-tasks-18.2.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rohitarer/.gradle/caches/transforms-3/8ab33ee6d52656877ae41d88f19298c5/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] /Users/rohitarer/.gradle/caches/transforms-3/8ab33ee6d52656877ae41d88f19298c5/transformed/jetified-firebase-measurement-connector-19.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:3:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/rohitarer/.gradle/caches/transforms-3/7d7f99a070342ccb625797cbc46f7c16/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.fragment:fragment:1.7.1] /Users/rohitarer/.gradle/caches/transforms-3/7d7f99a070342ccb625797cbc46f7c16/transformed/fragment-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/rohitarer/.gradle/caches/transforms-3/2a22077c354442fdd6586b9947c9b1ab/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /Users/rohitarer/.gradle/caches/transforms-3/2a22077c354442fdd6586b9947c9b1ab/transformed/jetified-activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.8.0] /Users/rohitarer/.gradle/caches/transforms-3/15084a67e3fd21998842091874c0a11f/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] /Users/rohitarer/.gradle/caches/transforms-3/15084a67e3fd21998842091874c0a11f/transformed/browser-1.8.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/rohitarer/.gradle/caches/transforms-3/d7ddd9a4e8e066daed8edaabbb3578e0/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.webkit:webkit:1.12.1] /Users/rohitarer/.gradle/caches/transforms-3/d7ddd9a4e8e066daed8edaabbb3578e0/transformed/webkit-1.12.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/01009582dad0d2959d22372c256aaa33/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/01009582dad0d2959d22372c256aaa33/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/4d3be47bb6a146040f3bdd20faa8996c/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/4d3be47bb6a146040f3bdd20faa8996c/transformed/jetified-ads-adservices-java-1.0.0-beta05/AndroidManifest.xml:5:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/2d12942a75f8f0c8fe25540e8e433b70/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/2d12942a75f8f0c8fe25540e8e433b70/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/80924c40c77c0b01ca84141b71df42d4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/80924c40c77c0b01ca84141b71df42d4/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/206511dd8489fbbfa4e567a22746443d/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/206511dd8489fbbfa4e567a22746443d/transformed/lifecycle-runtime-2.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/rohitarer/.gradle/caches/transforms-3/7fea50d89a63dd37e2b0ef1332dc914f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /Users/rohitarer/.gradle/caches/transforms-3/7fea50d89a63dd37e2b0ef1332dc914f/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/rohitarer/.gradle/caches/transforms-3/4f0639afce9e3277382e8c8de7c2c84e/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.7] /Users/rohitarer/.gradle/caches/transforms-3/4f0639afce9e3277382e8c8de7c2c84e/transformed/exifinterface-1.3.7/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/7df4e546d12fd08e760cc70f2a27a525/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/7df4e546d12fd08e760cc70f2a27a525/transformed/jetified-firebase-components-18.0.0/AndroidManifest.xml:18:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/a510fc0340ac0f4c58704b7583949ac1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/a510fc0340ac0f4c58704b7583949ac1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/125878fe3af31fdd637cfd03f880c701/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.tracing:tracing:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/125878fe3af31fdd637cfd03f880c701/transformed/jetified-tracing-1.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/f3067ec06d1de225d18ae2765132eb5d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/f3067ec06d1de225d18ae2765132eb5d/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/e540b547d0172eb86b2282fa2b13b6b8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/e540b547d0172eb86b2282fa2b13b6b8/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/rohitarer/.gradle/caches/transforms-3/cddce6ebbd0f934de3a81443c431538b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/rohitarer/.gradle/caches/transforms-3/cddce6ebbd0f934de3a81443c431538b/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/300a6cfb818b97bff569a626daa7f0ba/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.window.extensions.core:core:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/300a6cfb818b97bff569a626daa7f0ba/transformed/jetified-core-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/ef19845569a1728b5629a7ac9985bfc8/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/ef19845569a1728b5629a7ac9985bfc8/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/6d7f5c018c62839ee6b7620d0e9f01cb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/6d7f5c018c62839ee6b7620d0e9f01cb/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/48cb06e2505eb39517a8fa0e7d505431/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/rohitarer/.gradle/caches/transforms-3/48cb06e2505eb39517a8fa0e7d505431/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/rohitarer/.gradle/caches/transforms-3/23b5155a5b76b59890bbec18ff98444d/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /Users/rohitarer/.gradle/caches/transforms-3/23b5155a5b76b59890bbec18ff98444d/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/fb5092e8a04c6753828f91110bf4f513/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/fb5092e8a04c6753828f91110bf4f513/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/rohitarer/.gradle/caches/transforms-3/ca97e432e81e539e048cd0320626f51b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/rohitarer/.gradle/caches/transforms-3/ca97e432e81e539e048cd0320626f51b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:5:5-44
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/android/app/src/debug/AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-16:19
+MERGED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:14:9-23:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:27:9-36:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:34:9-40:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:22:9-31:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:12:9-21:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:11:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-89
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
+ADDED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:cloud_firestore] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-134
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/rohitarer/.gradle/caches/transforms-3/ca97e432e81e539e048cd0320626f51b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+MERGED from [io.grpc:grpc-android:1.62.2] /Users/rohitarer/.gradle/caches/transforms-3/ca97e432e81e539e048cd0320626f51b/transformed/jetified-grpc-android-1.62.2/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-65
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.analytics.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-15:85
+	android:value
+		ADDED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-82
+	android:name
+		ADDED from [:firebase_analytics] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_analytics/intermediates/merged_manifest/debug/AndroidManifest.xml:14:17-128
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
+ADDED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_storage] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-126
+meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
+ADDED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-11:85
+	android:value
+		ADDED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:17-82
+	android:name
+		ADDED from [:firebase_core] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:17-124
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+	android:grantUriPermissions
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+	android:authorities
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+	android:exported
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+	android:name
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+	android:resource
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+	android:name
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+service#com.google.android.gms.metadata.ModuleDependencies
+ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+	android:enabled
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+	android:exported
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+	tools:ignore
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-40
+	android:name
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+intent-filter#action:name:com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+action#com.google.android.gms.metadata.MODULE_DEPENDENCIES
+ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+	android:name
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+meta-data#photopicker_activity:0:required
+ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+	android:value
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+	android:name
+		ADDED from [:image_picker_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher_android] /Users/rohitarer/Documents/data/flutter/portfolio/Rohit-Arer-Portfolio/rohit_arer_portfolio/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+meta-data#com.google.firebase.components:com.google.firebase.storage.ktx.FirebaseStorageLegacyRegistrar
+ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage-ktx:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/c09c967b4347b02229b85b9134465a63/transformed/jetified-firebase-storage-ktx-21.0.1/AndroidManifest.xml:13:17-125
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreLegacyRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/8c83398dcb6e4d6a2748d9983f83f8cd/transformed/jetified-firebase-firestore-ktx-25.1.1/AndroidManifest.xml:13:17-129
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsLegacyRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/5b11b4a8b6654a8da9c48e44d1d993af/transformed/jetified-firebase-analytics-ktx-22.1.2/AndroidManifest.xml:12:17-129
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:17:13-19:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:19:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:18:17-122
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:25.1.1] /Users/rohitarer/.gradle/caches/transforms-3/ff603a06093e294742f687c0f84c7786/transformed/jetified-firebase-firestore-25.1.1/AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.storage.FirebaseStorageKtxRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:31:17-118
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:33:13-35:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:35:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:21.0.1] /Users/rohitarer/.gradle/caches/transforms-3/f4902fb59a9d212d26b25e4310c3497c/transformed/jetified-firebase-storage-21.0.1/AndroidManifest.xml:34:17-107
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/da84f25976a8fc85113802962c776ad2/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/da84f25976a8fc85113802962c776ad2/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_ADSERVICES_ATTRIBUTION
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:27:5-88
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:27:5-88
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:26:22-85
+uses-permission#android.permission.ACCESS_ADSERVICES_AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:28:5-82
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/1e4b3da31c32b35f53a5e731b8e42fb1/transformed/jetified-play-services-measurement-sdk-api-22.1.2/AndroidManifest.xml:28:5-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:27:22-79
+property
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:30:9-32:61
+	android:resource
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:32:13-58
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:31:13-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:37:13-39:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:39:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b2b4ed9e9931478bfc2f1bc82e61b234/transformed/jetified-play-services-measurement-api-22.1.2/AndroidManifest.xml:38:17-139
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckKtxRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:25:13-27:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:27:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:26:17-120
+meta-data#com.google.firebase.components:com.google.firebase.appcheck.FirebaseAppCheckRegistrar
+ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-appcheck:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/3dbde85b48ce901815d0c4404f33793a/transformed/jetified-firebase-appcheck-18.0.0/AndroidManifest.xml:29:17-117
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:16:17-130
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:18.0.0] /Users/rohitarer/.gradle/caches/transforms-3/2d85b2c6480a84b051ad3318127cc154/transformed/jetified-firebase-installations-18.0.0/AndroidManifest.xml:19:17-127
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/c1b8daf4b96e301be7b20404524738a2/transformed/jetified-firebase-common-ktx-21.0.0/AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] /Users/rohitarer/.gradle/caches/transforms-3/764a11400ec839739ca9b89a4b878f58/transformed/jetified-firebase-common-21.0.0/AndroidManifest.xml:36:17-109
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/4f30f71d8ef67989db75ec1fe79da01b/transformed/jetified-play-services-measurement-impl-22.1.2/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:22.1.2] /Users/rohitarer/.gradle/caches/transforms-3/b14144904b4c2bb4560d884b284e28fa/transformed/jetified-play-services-measurement-22.1.2/AndroidManifest.xml:40:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.5.0] /Users/rohitarer/.gradle/caches/transforms-3/714cf1806fb370644de16602be00727a/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+	android:required
+		ADDED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.window:window:1.2.0] /Users/rohitarer/.gradle/caches/transforms-3/c824b1b4d99184da2d8b9070d0007bdd/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.4.0] /Users/rohitarer/.gradle/caches/transforms-3/672322e5054a4dade45a63698f95a57e/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+uses-library#android.ext.adservices
+ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+	android:required
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/rohitarer/.gradle/caches/transforms-3/0d9a0eaffc11c3dd27cc9b4e08708a22/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.rohit_arer_portfolio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.rohit_arer_portfolio.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /Users/rohitarer/.gradle/caches/transforms-3/aec90886d9be16e9cb3471c96e25c010/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/a510fc0340ac0f4c58704b7583949ac1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /Users/rohitarer/.gradle/caches/transforms-3/a510fc0340ac0f4c58704b7583949ac1/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.7.0] /Users/rohitarer/.gradle/caches/transforms-3/0e81d1de1877de313392da43cecf3127/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /Users/rohitarer/.gradle/caches/transforms-3/ffb7e1f4c4f24df41f3f0f26a9f99281/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92

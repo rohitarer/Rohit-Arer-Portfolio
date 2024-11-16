@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">716250822438</string>
+    <string name="google_api_key" translatable="false">AIzaSyAij5cWjp9b8emHEfLJS9--Dn0uFZwn3rk</string>
+    <string name="google_app_id" translatable="false">1:716250822438:android:f2cc7867640b47896af3e7</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAij5cWjp9b8emHEfLJS9--Dn0uFZwn3rk</string>
+    <string name="google_storage_bucket" translatable="false">rohit-arer-portfolio.firebasestorage.app</string>
+    <string name="project_id" translatable="false">rohit-arer-portfolio</string>
+</resources>
