@@ -45,9 +45,9 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               children: [
                 _NavLink('About Me', onAboutTap),
                 const SizedBox(width: 20),
-                _NavLink('Experience', onExperienceTap),
+                _NavLink(' Experience', onExperienceTap),
                 const SizedBox(width: 20),
-                _NavLink('Projects', onProjectsTap),
+                _NavLink(' Projects', onProjectsTap),
               ],
             ),
           if (isWideScreen && kIsWeb) const Spacer(),
