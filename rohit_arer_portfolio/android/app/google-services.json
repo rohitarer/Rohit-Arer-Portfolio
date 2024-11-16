@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "716250822438",
+    "project_id": "rohit-arer-portfolio",
+    "storage_bucket": "rohit-arer-portfolio.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:716250822438:android:f2cc7867640b47896af3e7",
+        "android_client_info": {
+          "package_name": "com.example.rohit_arer_portfolio"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAij5cWjp9b8emHEfLJS9--Dn0uFZwn3rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
